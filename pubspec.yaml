@@ -11,8 +11,10 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.2
 
-  #getX plugIb for stateManagment
+  # getX plugIb for stateManagment
   get: ^4.6.5
+  # calling api 
+  http: ^0.13.5
 
 dev_dependencies:
   flutter_test:

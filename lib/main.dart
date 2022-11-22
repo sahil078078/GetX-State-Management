@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_state_managemant/22Nov22GetX2/home_screen_22_nov_getx2.dart';
 import 'package:getx_state_managemant/22Nov22GetX2/nov22_themedata.dart';
+import 'package:getx_state_managemant/22NovAPICallingWithGetX/api_call_home.dart';
 
 void main() {
   runApp(
@@ -20,7 +20,8 @@ class MyApp extends StatelessWidget {
       title: 'GetX StateManagement',
       theme: nov22ThemeData(),
       // home: const Nov22Home(),
-      home: const HomeScreen22NovGetX2(),
+      // home: const HomeScreen22NovGetX2(),
+      home: APICallingHome(),
     );
   }
 }
